@@ -1,9 +1,3 @@
-# nodejs-odev4
-patika.dev node.js dersi 4. ödevi
-
-###### DOSYA OLUŞTURMA, VERİ EKLEME, VERİ GÜNCELLEŞTİRME, DOSYA SİLME
-
-```js
 const fs = require('fs');
 
 // employees.json dosyası oluşturalım ve içerisine {"name": "Employee 1 Name", "salary": 2000} verisini ekleyelim. (CREATE)
@@ -26,4 +20,3 @@ fs.writeFile('employees.json', '{"name": "Employee 2 Name", "salary": 4000}', 'u
 fs.unlink('employees.json', (err) => {
     if (err) console.log(err);
 });
-```
